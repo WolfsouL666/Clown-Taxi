@@ -289,7 +289,7 @@ namespace ClownTaxi.Runtime
             foreach (Collider road in roadColliders)
             {
                 Vector3 point;
-                if (!TryRoadPoint(road, transform.position, pickupRadius + 0.05f, out point))
+                if (!TryRoadSidePoint(road, transform.position, pickupRadius + 0.05f, out point))
                     continue;
                 float distance = (point - transform.position).sqrMagnitude;
                 if (distance < nearestDistance)
@@ -300,6 +300,40 @@ namespace ClownTaxi.Runtime
                 }
             }
             return nearest;
+        }
+
+        private bool TryRoadSidePoint(Collider road, Vector3 position, float inset, out Vector3 point)
+        {
+            BoxCollider box = road as BoxCollider;
+            if (box == null)
+                return TryRoadPoint(road, position, inset, out point);
+
+            Bounds rect = new Bounds(box.center, box.size);
+            Vector3 scale = box.transform.lossyScale;
+            Vector3 local = box.transform.InverseTransformPoint(position);
+            float insetX = inset / Mathf.Max(0.0001f, Mathf.Abs(scale.x));
+            float insetZ = inset / Mathf.Max(0.0001f, Mathf.Abs(scale.z));
+            if (rect.size.x < insetX * 2f || rect.size.z < insetZ * 2f)
+            {
+                point = position;
+                return false;
+            }
+
+            bool alongX = rect.size.x >= rect.size.z;
+            float along = alongX
+                ? Mathf.Clamp(local.x, rect.min.x + insetX, rect.max.x - insetX)
+                : Mathf.Clamp(local.z, rect.min.z + insetZ, rect.max.z - insetZ);
+            float sideMin = alongX ? rect.min.z + insetZ : rect.min.x + insetX;
+            float sideMax = alongX ? rect.max.z - insetZ : rect.max.x - insetX;
+            float currentSide = alongX ? local.z : local.x;
+            float side = Mathf.Abs(currentSide - sideMin) <= Mathf.Abs(currentSide - sideMax) ? sideMin : sideMax;
+
+            local.x = alongX ? along : side;
+            local.z = alongX ? side : along;
+            local.y = rect.max.y;
+            point = box.transform.TransformPoint(local);
+            point.y += 0.04f;
+            return true;
         }
 
         private bool TryRoadPoint(Collider road, Vector3 position, float inset, out Vector3 point)
