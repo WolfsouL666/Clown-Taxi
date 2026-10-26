@@ -326,7 +326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12967501}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 6.5, z: 0}
   m_LocalScale: {x: 14, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 15009336}
   - component: {fileID: 15009338}
   - component: {fileID: 15009337}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 18728674}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Balloon Diner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,6 +735,145 @@ Transform:
   - {fileID: 1706298345}
   m_Father: {fileID: 1855849591}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &19873921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1423952224792068, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &19873923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19873921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 0
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!1 &22319393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22319394}
+  - component: {fileID: 22319396}
+  - component: {fileID: 22319395}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22319394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22319393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.43, y: -1.31, z: -0.222}
+  m_LocalScale: {x: 0.024226507, y: 0.024226507, z: 0.024226507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867240843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &22319395
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22319393}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: eb72032aa62e61145afa4b05f2811a02, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &22319396
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22319393}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &29307356
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +886,7 @@ GameObject:
   - component: {fileID: 29307360}
   - component: {fileID: 29307359}
   - component: {fileID: 29307358}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1531,7 +1670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52327537}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carnival Staff Depot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,6 +1783,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54253594}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &58198809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1353115738254694, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &58198811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58198809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 0
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &61740572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2340,7 @@ GameObject:
   - component: {fileID: 79226222}
   - component: {fileID: 79226221}
   - component: {fileID: 79226220}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2531,7 +2719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 94738284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Honk Heights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2800,7 +2988,7 @@ GameObject:
   - component: {fileID: 102752507}
   - component: {fileID: 102752509}
   - component: {fileID: 102752508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3093,7 +3281,7 @@ GameObject:
   - component: {fileID: 122181292}
   - component: {fileID: 122181291}
   - component: {fileID: 122181290}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3297,7 +3485,7 @@ GameObject:
   - component: {fileID: 134903510}
   - component: {fileID: 134903509}
   - component: {fileID: 134903508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,7 +3686,7 @@ GameObject:
   - component: {fileID: 138578971}
   - component: {fileID: 138578973}
   - component: {fileID: 138578972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4140,6 +4328,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClownTaxi.Blockout.BlockoutMarker
   kind: 3
   locationName: Honk Convenience Store
+--- !u!1 &164084985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164084986}
+  - component: {fileID: 164084989}
+  - component: {fileID: 164084988}
+  - component: {fileID: 164084987}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &164084986
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164084985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 480783285}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &164084987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164084985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &164084988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164084985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &164084989
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164084985}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &170560846
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,7 +4644,7 @@ GameObject:
   - component: {fileID: 177276262}
   - component: {fileID: 177276261}
   - component: {fileID: 177276260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4556,7 +4846,7 @@ GameObject:
   - component: {fileID: 180645059}
   - component: {fileID: 180645058}
   - component: {fileID: 180645057}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4670,7 +4960,7 @@ GameObject:
   - component: {fileID: 182492307}
   - component: {fileID: 182492306}
   - component: {fileID: 182492305}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carnival Grounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4869,7 +5159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184151766}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bumper Cars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4993,7 +5283,7 @@ GameObject:
   - component: {fileID: 192108734}
   - component: {fileID: 192108736}
   - component: {fileID: 192108735}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5084,7 +5374,7 @@ GameObject:
   - component: {fileID: 196287335}
   - component: {fileID: 196287334}
   - component: {fileID: 196287333}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5286,7 +5576,7 @@ GameObject:
   - component: {fileID: 202890019}
   - component: {fileID: 202890021}
   - component: {fileID: 202890020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Jester Towers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5379,6 +5669,96 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &209026510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209026511}
+  - component: {fileID: 209026513}
+  - component: {fileID: 209026512}
+  m_Layer: 0
+  m_Name: Plane (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209026511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209026510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.179, y: -1.31, z: 0.02}
+  m_LocalScale: {x: 0.024226507, y: 0.024226507, z: 0.024226507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867240843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &209026512
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209026510}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 92b76abb6d361074e98ea73feeb72907, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &209026513
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209026510}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &219500401
 GameObject:
   m_ObjectHideFlags: 0
@@ -5388,7 +5768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219500402}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Jester Towers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5429,7 +5809,7 @@ GameObject:
   - component: {fileID: 222027417}
   - component: {fileID: 222027416}
   - component: {fileID: 222027415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5543,7 +5923,7 @@ GameObject:
   - component: {fileID: 222937571}
   - component: {fileID: 222937570}
   - component: {fileID: 222937569}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5925,7 +6305,7 @@ GameObject:
   - component: {fileID: 231413629}
   - component: {fileID: 231413631}
   - component: {fileID: 231413630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6510,7 +6890,7 @@ GameObject:
   - component: {fileID: 256023293}
   - component: {fileID: 256023292}
   - component: {fileID: 256023291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7072,7 +7452,7 @@ GameObject:
   - component: {fileID: 274712600}
   - component: {fileID: 274712599}
   - component: {fileID: 274712598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7334,13 +7714,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288967608}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.0012487172, y: 0.0006497204, z: 0.0011645764, w: 0.99999833}
   m_LocalPosition: {x: 6.5, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 960989289}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.143, y: 0.075, z: 0.134}
 --- !u!23 &288967610
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7837,7 +8217,7 @@ GameObject:
   - component: {fileID: 299002296}
   - component: {fileID: 299002295}
   - component: {fileID: 299002294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8488,7 +8868,7 @@ GameObject:
   - component: {fileID: 334178311}
   - component: {fileID: 334178310}
   - component: {fileID: 334178309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8598,7 +8978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 335217379}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Top Circus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8632,7 +9012,7 @@ GameObject:
   - component: {fileID: 338339780}
   - component: {fileID: 338339782}
   - component: {fileID: 338339781}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9421,7 +9801,7 @@ GameObject:
   - component: {fileID: 369604960}
   - component: {fileID: 369604959}
   - component: {fileID: 369604958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9533,7 +9913,7 @@ GameObject:
   - component: {fileID: 370779578}
   - component: {fileID: 370779580}
   - component: {fileID: 370779579}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9621,7 +10001,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 376362875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9656,7 +10036,7 @@ GameObject:
   - component: {fileID: 377037770}
   - component: {fileID: 377037772}
   - component: {fileID: 377037771}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Honk Heights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9820,7 +10200,7 @@ GameObject:
   - component: {fileID: 389604369}
   - component: {fileID: 389604371}
   - component: {fileID: 389604370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10195,7 +10575,7 @@ GameObject:
   - component: {fileID: 404520857}
   - component: {fileID: 404520856}
   - component: {fileID: 404520855}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10419,7 +10799,7 @@ GameObject:
   - component: {fileID: 406890500}
   - component: {fileID: 406890502}
   - component: {fileID: 406890501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10597,7 +10977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 407202405}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10723,7 +11103,7 @@ GameObject:
   - component: {fileID: 413246586}
   - component: {fileID: 413246585}
   - component: {fileID: 413246584}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11149,7 +11529,7 @@ GameObject:
   - component: {fileID: 423372063}
   - component: {fileID: 423372065}
   - component: {fileID: 423372064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prize Pavilion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11434,7 +11814,7 @@ GameObject:
   - component: {fileID: 445446054}
   - component: {fileID: 445446053}
   - component: {fileID: 445446052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11656,7 +12036,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 458984782}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Shoe Residences
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11807,6 +12187,7 @@ Transform:
   m_Children:
   - {fileID: 1377957634}
   - {fileID: 1787902043}
+  - {fileID: 164084986}
   m_Father: {fileID: 1177143403}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483722521
@@ -11821,7 +12202,7 @@ GameObject:
   - component: {fileID: 483722525}
   - component: {fileID: 483722524}
   - component: {fileID: 483722523}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12139,7 +12520,7 @@ GameObject:
   - component: {fileID: 495863490}
   - component: {fileID: 495863489}
   - component: {fileID: 495863488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12343,7 +12724,7 @@ GameObject:
   - component: {fileID: 499975798}
   - component: {fileID: 499975797}
   - component: {fileID: 499975796}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12546,7 +12927,7 @@ GameObject:
   - component: {fileID: 505723913}
   - component: {fileID: 505723915}
   - component: {fileID: 505723914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Balloon Diner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12651,7 +13032,7 @@ GameObject:
   - component: {fileID: 508331070}
   - component: {fileID: 508331069}
   - component: {fileID: 508331068}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12855,7 +13236,7 @@ GameObject:
   - component: {fileID: 514092443}
   - component: {fileID: 514092442}
   - component: {fileID: 514092441}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12966,7 +13347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 517164585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ticket Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13383,7 +13764,7 @@ GameObject:
   - component: {fileID: 527599347}
   - component: {fileID: 527599346}
   - component: {fileID: 527599345}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13495,7 +13876,7 @@ GameObject:
   - component: {fileID: 543436645}
   - component: {fileID: 543436647}
   - component: {fileID: 543436646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Arcade Alley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13983,7 +14364,7 @@ GameObject:
   - component: {fileID: 566261775}
   - component: {fileID: 566261777}
   - component: {fileID: 566261776}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ticket Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14267,7 +14648,7 @@ GameObject:
   - component: {fileID: 575562735}
   - component: {fileID: 575562737}
   - component: {fileID: 575562736}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14357,7 +14738,7 @@ GameObject:
   - component: {fileID: 577860810}
   - component: {fileID: 577860812}
   - component: {fileID: 577860811}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15233,7 +15614,7 @@ GameObject:
   - component: {fileID: 605634455}
   - component: {fileID: 605634457}
   - component: {fileID: 605634456}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15414,7 +15795,7 @@ GameObject:
   - component: {fileID: 613688551}
   - component: {fileID: 613688550}
   - component: {fileID: 613688549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15616,7 +15997,7 @@ GameObject:
   - component: {fileID: 619185319}
   - component: {fileID: 619185318}
   - component: {fileID: 619185317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15729,7 +16110,7 @@ GameObject:
   - component: {fileID: 624125486}
   - component: {fileID: 624125485}
   - component: {fileID: 624125484}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15956,7 +16337,7 @@ GameObject:
   - component: {fileID: 627650905}
   - component: {fileID: 627650904}
   - component: {fileID: 627650903}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16069,7 +16450,7 @@ GameObject:
   - component: {fileID: 627755695}
   - component: {fileID: 627755694}
   - component: {fileID: 627755693}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carousel Canopy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16182,7 +16563,7 @@ GameObject:
   - component: {fileID: 628925213}
   - component: {fileID: 628925215}
   - component: {fileID: 628925214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16452,7 +16833,7 @@ GameObject:
   - component: {fileID: 639884394}
   - component: {fileID: 639884396}
   - component: {fileID: 639884395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Popcorn Palace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16668,7 +17049,7 @@ GameObject:
   - component: {fileID: 643213025}
   - component: {fileID: 643213027}
   - component: {fileID: 643213026}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16871,7 +17252,7 @@ GameObject:
   - component: {fileID: 663705503}
   - component: {fileID: 663705502}
   - component: {fileID: 663705501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17096,7 +17477,7 @@ GameObject:
   - component: {fileID: 667435340}
   - component: {fileID: 667435339}
   - component: {fileID: 667435338}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17501,7 +17882,7 @@ GameObject:
   - component: {fileID: 678686524}
   - component: {fileID: 678686526}
   - component: {fileID: 678686525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Top Circus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17605,7 +17986,7 @@ GameObject:
   - component: {fileID: 680913776}
   - component: {fileID: 680913778}
   - component: {fileID: 680913777}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17864,6 +18245,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683430169}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &691972901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691972904}
+  - component: {fileID: 691972903}
+  - component: {fileID: 691972902}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &691972902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691972901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &691972903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691972901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &691972904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691972901}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &697012111
 GameObject:
   m_ObjectHideFlags: 0
@@ -17876,7 +18336,7 @@ GameObject:
   - component: {fileID: 697012115}
   - component: {fileID: 697012114}
   - component: {fileID: 697012113}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carousel Pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18279,7 +18739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712404637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Haunted House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18401,7 +18861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 713406248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18638,7 +19098,7 @@ GameObject:
   - component: {fileID: 721743161}
   - component: {fileID: 721743163}
   - component: {fileID: 721743162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ferris Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18742,7 +19202,7 @@ GameObject:
   - component: {fileID: 726964505}
   - component: {fileID: 726964507}
   - component: {fileID: 726964506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19394,7 +19854,7 @@ GameObject:
   - component: {fileID: 741458161}
   - component: {fileID: 741458163}
   - component: {fileID: 741458162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19572,7 +20032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 752813465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19787,7 +20247,7 @@ GameObject:
   - component: {fileID: 762872840}
   - component: {fileID: 762872842}
   - component: {fileID: 762872841}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Taxi Garage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19892,7 +20352,7 @@ GameObject:
   - component: {fileID: 763410928}
   - component: {fileID: 763410927}
   - component: {fileID: 763410926}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20063,6 +20523,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClownTaxi.Blockout.BlockoutMarker
   kind: 2
   locationName: Main Entrance
+--- !u!1 &769090780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1731961510659656, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769090782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769090780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 0
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &774311723
 GameObject:
   m_ObjectHideFlags: 0
@@ -20072,7 +20581,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774311724}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20465,7 +20974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794873353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: West End Flats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20896,7 +21405,7 @@ GameObject:
   - component: {fileID: 809610801}
   - component: {fileID: 809610800}
   - component: {fileID: 809610799}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21300,7 +21809,7 @@ GameObject:
   - component: {fileID: 817454478}
   - component: {fileID: 817454477}
   - component: {fileID: 817454476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21499,7 +22008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 818856561}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21534,7 +22043,7 @@ GameObject:
   - component: {fileID: 821905509}
   - component: {fileID: 821905511}
   - component: {fileID: 821905510}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carousel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21729,7 +22238,7 @@ GameObject:
   - component: {fileID: 830491447}
   - component: {fileID: 830491446}
   - component: {fileID: 830491445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22023,7 +22532,7 @@ GameObject:
   - component: {fileID: 844070398}
   - component: {fileID: 844070397}
   - component: {fileID: 844070396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22745,6 +23254,280 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861430728}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &867240842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1265780804}
+    m_Modifications:
+    - target: {fileID: 1018061742449168, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_Name
+      value: FishEye
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731961510659656, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.14301682
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.190558
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5973892
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.013653907
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.022470616
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.51910514
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.8543059
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -117.431
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 183.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20218811529459044, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 20402396231258258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20402396231258258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20402396231258258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20402396231258258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20402396231258258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20402396231258258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20410035829704710, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20753211608510284, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20934825106929258, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20992104504247796, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 23877078648868124, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135023197700091972, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1569395961}
+    - targetCorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1937919407}
+    - targetCorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 209026511}
+    - targetCorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 22319394}
+    - targetCorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1518530221}
+    - targetCorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2067641894}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1877497878024790, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024306881}
+    - targetCorrespondingSourceObject: {fileID: 1353115738254694, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 58198811}
+    - targetCorrespondingSourceObject: {fileID: 1826595772018434, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1389475805}
+    - targetCorrespondingSourceObject: {fileID: 1221105975024424, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1152829975}
+    - targetCorrespondingSourceObject: {fileID: 1423952224792068, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 19873923}
+    - targetCorrespondingSourceObject: {fileID: 1731961510659656, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769090782}
+  m_SourcePrefab: {fileID: 100100000, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+--- !u!4 &867240843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4948018002779370, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &867730082
 GameObject:
   m_ObjectHideFlags: 0
@@ -22802,7 +23585,7 @@ GameObject:
   - component: {fileID: 870238190}
   - component: {fileID: 870238192}
   - component: {fileID: 870238191}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Confetti Court
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22904,7 +23687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 870553709}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ferris Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23426,7 +24209,7 @@ GameObject:
   - component: {fileID: 888626684}
   - component: {fileID: 888626686}
   - component: {fileID: 888626685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23604,7 +24387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 895755930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23863,7 +24646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 904516411}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24168,7 +24951,7 @@ GameObject:
   - component: {fileID: 914274575}
   - component: {fileID: 914274577}
   - component: {fileID: 914274576}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24436,7 +25219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 924387285}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Clown Academy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24558,7 +25341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 932408159}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Jester Hotel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25955,7 +26738,7 @@ GameObject:
   - component: {fileID: 994069275}
   - component: {fileID: 994069277}
   - component: {fileID: 994069276}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Haunted House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26315,7 +27098,7 @@ GameObject:
   - component: {fileID: 1019642398}
   - component: {fileID: 1019642397}
   - component: {fileID: 1019642396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26828,7 +27611,7 @@ GameObject:
   - component: {fileID: 1051197223}
   - component: {fileID: 1051197222}
   - component: {fileID: 1051197221}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27029,7 +27812,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1052660170}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Arcade Alley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27154,7 +27937,7 @@ GameObject:
   - component: {fileID: 1053561592}
   - component: {fileID: 1053561591}
   - component: {fileID: 1053561590}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27482,7 +28265,7 @@ GameObject:
   - component: {fileID: 1072100785}
   - component: {fileID: 1072100784}
   - component: {fileID: 1072100783}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27880,7 +28663,7 @@ GameObject:
   - component: {fileID: 1079426920}
   - component: {fileID: 1079426919}
   - component: {fileID: 1079426918}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28284,7 +29067,7 @@ GameObject:
   - component: {fileID: 1087975572}
   - component: {fileID: 1087975574}
   - component: {fileID: 1087975573}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29194,7 +29977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1128728222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Confetti Court
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29235,7 +30018,7 @@ GameObject:
   - component: {fileID: 1131534082}
   - component: {fileID: 1131534081}
   - component: {fileID: 1131534080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29638,7 +30421,7 @@ GameObject:
   - component: {fileID: 1135417524}
   - component: {fileID: 1135417526}
   - component: {fileID: 1135417525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29819,7 +30602,7 @@ GameObject:
   - component: {fileID: 1138286649}
   - component: {fileID: 1138286648}
   - component: {fileID: 1138286647}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30247,7 +31030,7 @@ GameObject:
   - component: {fileID: 1143531036}
   - component: {fileID: 1143531038}
   - component: {fileID: 1143531037}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30425,7 +31208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150862331}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hall Of Mirrors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30457,7 +31240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1151462923}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30481,6 +31264,55 @@ Transform:
   - {fileID: 2096344611}
   m_Father: {fileID: 1029550304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1152829973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1221105975024424, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1152829975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152829973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 0
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1162214231
 GameObject:
   m_ObjectHideFlags: 0
@@ -30492,7 +31324,7 @@ GameObject:
   - component: {fileID: 1162214232}
   - component: {fileID: 1162214234}
   - component: {fileID: 1162214233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ringmaster Apartments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30801,7 +31633,7 @@ GameObject:
   - component: {fileID: 1173822705}
   - component: {fileID: 1173822704}
   - component: {fileID: 1173822703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30914,7 +31746,7 @@ GameObject:
   - component: {fileID: 1174783579}
   - component: {fileID: 1174783581}
   - component: {fileID: 1174783580}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Clown Academy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31438,7 +32270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1193823046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Southside Flats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31764,7 +32596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209418592}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prize Pavilion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31888,7 +32720,7 @@ GameObject:
   - component: {fileID: 1220220197}
   - component: {fileID: 1220220199}
   - component: {fileID: 1220220198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Shoe Residences
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32296,7 +33128,7 @@ GameObject:
   - component: {fileID: 1261583488}
   - component: {fileID: 1261583487}
   - component: {fileID: 1261583486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32515,6 +33347,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 867240843}
   - {fileID: 294217732}
   - {fileID: 898152499}
   - {fileID: 1997961355}
@@ -32863,7 +33696,7 @@ GameObject:
   - component: {fileID: 1277080964}
   - component: {fileID: 1277080966}
   - component: {fileID: 1277080965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33023,7 +33856,7 @@ GameObject:
   - component: {fileID: 1281503674}
   - component: {fileID: 1281503673}
   - component: {fileID: 1281503672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33664,7 +34497,7 @@ GameObject:
   - component: {fileID: 1301701552}
   - component: {fileID: 1301701554}
   - component: {fileID: 1301701553}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33752,7 +34585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1308984939}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ringmaster Apartments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33923,7 +34756,7 @@ GameObject:
   - component: {fileID: 1330310602}
   - component: {fileID: 1330310604}
   - component: {fileID: 1330310603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34104,7 +34937,7 @@ GameObject:
   - component: {fileID: 1342549098}
   - component: {fileID: 1342549097}
   - component: {fileID: 1342549096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34213,7 +35046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1345963827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34360,7 +35193,7 @@ GameObject:
   - component: {fileID: 1350823643}
   - component: {fileID: 1350823645}
   - component: {fileID: 1350823644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34451,7 +35284,7 @@ GameObject:
   - component: {fileID: 1352785272}
   - component: {fileID: 1352785271}
   - component: {fileID: 1352785270}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34654,7 +35487,7 @@ GameObject:
   - component: {fileID: 1369648323}
   - component: {fileID: 1369648322}
   - component: {fileID: 1369648321}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34982,6 +35815,7 @@ GameObject:
   - component: {fileID: 1377957634}
   - component: {fileID: 1377957636}
   - component: {fileID: 1377957635}
+  - component: {fileID: 1377957637}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -35063,6 +35897,51 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1377957637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377957633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras:
+  - {fileID: 1569395958}
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1380747017
 GameObject:
   m_ObjectHideFlags: 0
@@ -35347,6 +36226,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386457982}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1389475803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1826595772018434, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1389475805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389475803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 0
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1391732793
 GameObject:
   m_ObjectHideFlags: 0
@@ -35453,7 +36381,7 @@ GameObject:
   - component: {fileID: 1394437248}
   - component: {fileID: 1394437250}
   - component: {fileID: 1394437249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35543,7 +36471,7 @@ GameObject:
   - component: {fileID: 1398740697}
   - component: {fileID: 1398740699}
   - component: {fileID: 1398740698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wheel Disc Blockout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35721,7 +36649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403587392}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Taxi Garage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36116,7 +37044,7 @@ GameObject:
   - component: {fileID: 1432159815}
   - component: {fileID: 1432159814}
   - component: {fileID: 1432159813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36522,7 +37450,7 @@ GameObject:
   - component: {fileID: 1449759600}
   - component: {fileID: 1449759599}
   - component: {fileID: 1449759598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wheel Support
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36857,7 +37785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1463120496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36893,7 +37821,7 @@ GameObject:
   - component: {fileID: 1463460418}
   - component: {fileID: 1463460417}
   - component: {fileID: 1463460416}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37589,7 +38517,7 @@ GameObject:
   - component: {fileID: 1491299614}
   - component: {fileID: 1491299616}
   - component: {fileID: 1491299615}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38142,6 +39070,96 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514279337}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1518530220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518530221}
+  - component: {fileID: 1518530223}
+  - component: {fileID: 1518530222}
+  m_Layer: 0
+  m_Name: Plane (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1518530221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518530220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.678, y: -1.31, z: 0.0232}
+  m_LocalScale: {x: 0.024226507, y: 0.024226507, z: 0.024226507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867240843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1518530222
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518530220}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a55c0473ff9c2c243b1bdc984e5aecea, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1518530223
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518530220}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1519551442
 GameObject:
   m_ObjectHideFlags: 0
@@ -38151,7 +39169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1519551443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Popcorn Palace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38273,7 +39291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1528595966}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38398,7 +39416,7 @@ GameObject:
   - component: {fileID: 1539621073}
   - component: {fileID: 1539621075}
   - component: {fileID: 1539621074}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pierrot Apartments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39056,6 +40074,134 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560573088}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1569395957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569395961}
+  - component: {fileID: 1569395958}
+  - component: {fileID: 1569395959}
+  m_Layer: 0
+  m_Name: for UI camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1569395958
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569395957}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 0.05
+  field of view: 60
+  orthographic: 1
+  orthographic size: 0.1
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &1569395959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569395957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 1
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!4 &1569395961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569395957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.8571673, y: 0, z: 0, w: 0.51503813}
+  m_LocalPosition: {x: -0.122, y: 0.0296, z: 0.0693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867240843}
+  m_LocalEulerAnglesHint: {x: 118, y: 0, z: 0}
 --- !u!1 &1572165107
 GameObject:
   m_ObjectHideFlags: 0
@@ -39251,7 +40397,7 @@ GameObject:
   - component: {fileID: 1578969970}
   - component: {fileID: 1578969969}
   - component: {fileID: 1578969968}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39363,7 +40509,7 @@ GameObject:
   - component: {fileID: 1582238058}
   - component: {fileID: 1582238057}
   - component: {fileID: 1582238056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39585,7 +40731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1591133421}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pierrot Apartments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40223,7 +41369,7 @@ GameObject:
   - component: {fileID: 1609328953}
   - component: {fileID: 1609328955}
   - component: {fileID: 1609328954}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40528,7 +41674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632883281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40564,7 +41710,7 @@ GameObject:
   - component: {fileID: 1638738095}
   - component: {fileID: 1638738094}
   - component: {fileID: 1638738093}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40766,7 +41912,7 @@ GameObject:
   - component: {fileID: 1640630594}
   - component: {fileID: 1640630596}
   - component: {fileID: 1640630595}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40857,7 +42003,7 @@ GameObject:
   - component: {fileID: 1640948702}
   - component: {fileID: 1640948701}
   - component: {fileID: 1640948700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41350,7 +42496,7 @@ GameObject:
   - component: {fileID: 1681861897}
   - component: {fileID: 1681861899}
   - component: {fileID: 1681861898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41441,7 +42587,7 @@ GameObject:
   - component: {fileID: 1686845829}
   - component: {fileID: 1686845828}
   - component: {fileID: 1686845827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41552,7 +42698,7 @@ GameObject:
   - component: {fileID: 1688619984}
   - component: {fileID: 1688619986}
   - component: {fileID: 1688619985}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: West End Flats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41656,7 +42802,7 @@ GameObject:
   - component: {fileID: 1690113119}
   - component: {fileID: 1690113121}
   - component: {fileID: 1690113120}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41926,7 +43072,7 @@ GameObject:
   - component: {fileID: 1699775719}
   - component: {fileID: 1699775721}
   - component: {fileID: 1699775720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carnival Staff Depot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42121,7 +43267,7 @@ GameObject:
   - component: {fileID: 1706298348}
   - component: {fileID: 1706298347}
   - component: {fileID: 1706298346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42414,7 +43560,7 @@ GameObject:
   - component: {fileID: 1731989805}
   - component: {fileID: 1731989807}
   - component: {fileID: 1731989806}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Southside Flats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42606,7 +43752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1734889176}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42754,7 +43900,7 @@ GameObject:
   - component: {fileID: 1742591805}
   - component: {fileID: 1742591804}
   - component: {fileID: 1742591803}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43710,7 +44856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1794147706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carousel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43836,7 +44982,7 @@ GameObject:
   - component: {fileID: 1821754860}
   - component: {fileID: 1821754862}
   - component: {fileID: 1821754861}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43927,7 +45073,7 @@ GameObject:
   - component: {fileID: 1823521133}
   - component: {fileID: 1823521132}
   - component: {fileID: 1823521131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44131,7 +45277,7 @@ GameObject:
   - component: {fileID: 1846025187}
   - component: {fileID: 1846025186}
   - component: {fileID: 1846025185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44242,7 +45388,7 @@ GameObject:
   - component: {fileID: 1852889749}
   - component: {fileID: 1852889751}
   - component: {fileID: 1852889750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44330,7 +45476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1855849591}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Outside World - Apartments And Shops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44523,7 +45669,7 @@ GameObject:
   - component: {fileID: 1865865085}
   - component: {fileID: 1865865084}
   - component: {fileID: 1865865083}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45220,7 +46366,7 @@ GameObject:
   - component: {fileID: 1883594199}
   - component: {fileID: 1883594201}
   - component: {fileID: 1883594200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45400,7 +46546,7 @@ GameObject:
   - component: {fileID: 1887226336}
   - component: {fileID: 1887226338}
   - component: {fileID: 1887226337}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bumper Cars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45504,7 +46650,7 @@ GameObject:
   - component: {fileID: 1890297408}
   - component: {fileID: 1890297410}
   - component: {fileID: 1890297409}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45682,7 +46828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1892897930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46011,7 +47157,7 @@ GameObject:
   - component: {fileID: 1902303167}
   - component: {fileID: 1902303166}
   - component: {fileID: 1902303165}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46123,7 +47269,7 @@ GameObject:
   - component: {fileID: 1904765802}
   - component: {fileID: 1904765804}
   - component: {fileID: 1904765803}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46393,7 +47539,7 @@ GameObject:
   - component: {fileID: 1918093477}
   - component: {fileID: 1918093479}
   - component: {fileID: 1918093478}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hall Of Mirrors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46585,7 +47731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925398182}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46618,7 +47764,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929452428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46732,6 +47878,96 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929739975}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1937919406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937919407}
+  - component: {fileID: 1937919410}
+  - component: {fileID: 1937919409}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937919407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937919406}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.43, y: -1.31, z: 0.02}
+  m_LocalScale: {x: 0.024226507, y: 0.024226507, z: 0.024226507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867240843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1937919409
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937919406}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 431ff319068cb5c4c9ea991b0a5cf1bf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1937919410
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937919406}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1944944920
 GameObject:
   m_ObjectHideFlags: 0
@@ -47329,7 +48565,7 @@ GameObject:
   - component: {fileID: 1972988393}
   - component: {fileID: 1972988395}
   - component: {fileID: 1972988394}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47417,7 +48653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1974442198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47452,7 +48688,7 @@ GameObject:
   - component: {fileID: 1984748356}
   - component: {fileID: 1984748358}
   - component: {fileID: 1984748357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47540,7 +48776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1992329236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Harlequin House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47582,7 +48818,7 @@ GameObject:
   - component: {fileID: 1997283020}
   - component: {fileID: 1997283022}
   - component: {fileID: 1997283021}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47967,7 +49203,7 @@ GameObject:
   - component: {fileID: 2011752767}
   - component: {fileID: 2011752766}
   - component: {fileID: 2011752765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48078,7 +49314,7 @@ GameObject:
   - component: {fileID: 2015743883}
   - component: {fileID: 2015743885}
   - component: {fileID: 2015743884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48381,6 +49617,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023176883}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2024306879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1877497878024790, guid: 48a755c1a88ce5b49aac791a3246d96d, type: 3}
+  m_PrefabInstance: {fileID: 867240842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2024306881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024306879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: 0
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 0
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &2025182515
 GameObject:
   m_ObjectHideFlags: 0
@@ -48596,7 +49881,7 @@ GameObject:
   - component: {fileID: 2031199974}
   - component: {fileID: 2031199976}
   - component: {fileID: 2031199975}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Harlequin House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49230,6 +50515,96 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062415590}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2067641893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2067641894}
+  - component: {fileID: 2067641896}
+  - component: {fileID: 2067641895}
+  m_Layer: 0
+  m_Name: Plane (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2067641894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067641893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.436, y: -1.31, z: 0.273}
+  m_LocalScale: {x: 0.024226507, y: 0.024226507, z: 0.024226507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867240843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2067641895
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067641893}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 24c76bfb6fccd4b40a2731e5a181f5d1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2067641896
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067641893}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2068846443
 GameObject:
   m_ObjectHideFlags: 0
@@ -49241,7 +50616,7 @@ GameObject:
   - component: {fileID: 2068846444}
   - component: {fileID: 2068846446}
   - component: {fileID: 2068846445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Jester Hotel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49932,7 +51307,7 @@ GameObject:
   - component: {fileID: 2096344614}
   - component: {fileID: 2096344613}
   - component: {fileID: 2096344612}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Canopy Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50478,7 +51853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2117834990}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Honk Convenience Store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51031,7 +52406,7 @@ GameObject:
   - component: {fileID: 2141306541}
   - component: {fileID: 2141306543}
   - component: {fileID: 2141306542}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Band
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51229,3 +52604,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1177143403}
+  - {fileID: 691972904}
