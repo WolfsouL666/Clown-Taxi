@@ -17,6 +17,7 @@ namespace ClownTaxi.Runtime
 
         [Header("==== REFERENCES ====")]
         [SerializeField] private Camera viewCamera;
+        [SerializeField] public GameObject UI;
 
         private CharacterController controller;
         private Renderer[] bodyRenderers;

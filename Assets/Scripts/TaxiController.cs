@@ -21,6 +21,7 @@ namespace ClownTaxi.Runtime
         [SerializeField] private Transform cameraSeat;
         [SerializeField] private Transform exitPoint;
 
+
         private FirstPersonPlayer occupant;
         private float speed;
         private float steeringInput;
