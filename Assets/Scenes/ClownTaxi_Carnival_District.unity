@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 779971}
   - component: {fileID: 779970}
   - component: {fileID: 779969}
+  - component: {fileID: 88000001}
   m_Layer: 0
   m_Name: Clown NPC 22 - Grey Cylinder
   m_TagString: Untagged
@@ -2367,6 +2368,486 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85786206}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &88000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542949923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566703680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652240324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676869670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715558787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897337911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985873272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986714348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043453918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300138369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315796579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469289437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531300766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610341889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675105717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744237751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756097800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839100699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913481296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916447641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921364238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077023290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
+--- !u!114 &88000024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114130212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b35d80aa74c4e9b2bb50d8c8d2c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRadius: 2.2
+  streetSearchRadius: 35
+  pickupAreaColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  walkSpeed: 1.4
+  requestDelayMin: 8
+  requestDelayMax: 22
+  requestDuration: 35
+  requestChance: 0.35
 --- !u!1 &88746761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,6 +2938,112 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88746761}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &89000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349293720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df146fd9535f4740be6ad5ea988530e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  gravity: -24
+  interactionDistance: 5
+  lookSensitivity: 0.08
+  lookLimit: 85
+  viewCamera: {fileID: 1377957636}
+  ui: {fileID: 0}
+--- !u!114 &89000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265780803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fc1d1b0a84c2f4bb6c02763aaea1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceleration: 18
+  maxSpeed: 20
+  reverseSpeed: 7
+  steering: 105
+  braking: 24
+  steeringWeight: 1
+  steeringResponse: 8
+  collisionPadding: 0.15
+  driverSeat: {fileID: 0}
+  cameraSeat: {fileID: 0}
+  exitPoint: {fileID: 0}
+  passengerSeat: {fileID: 0}
+--- !u!1 &89000003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 89000004}
+  - component: {fileID: 89000005}
+  - component: {fileID: 89000006}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &89000004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89000003}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &89000005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89000003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7ea2900af1596469296f3ef41ac050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupDistance: 4
+  dropOffDistance: 2.2
+  markerColor: {r: 0.1, g: 1, b: 0.2, a: 0.8}
+  markerHeight: 0.04
+--- !u!114 &89000006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89000003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bf002bef1a141d69e34e64130d633f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 349293721}
+  taxi: {fileID: 1265780804}
 --- !u!1 &91157338
 GameObject:
   m_ObjectHideFlags: 0
@@ -8631,6 +9218,7 @@ GameObject:
   - component: {fileID: 349293724}
   - component: {fileID: 349293723}
   - component: {fileID: 349293722}
+  - component: {fileID: 89000001}
   m_Layer: 0
   m_Name: Player - Cylinder
   m_TagString: Untagged
@@ -13313,6 +13901,7 @@ GameObject:
   - component: {fileID: 542949927}
   - component: {fileID: 542949926}
   - component: {fileID: 542949925}
+  - component: {fileID: 88000002}
   m_Layer: 0
   m_Name: Clown NPC 19 - Grey Cylinder
   m_TagString: Untagged
@@ -14058,6 +14647,7 @@ GameObject:
   - component: {fileID: 566703684}
   - component: {fileID: 566703683}
   - component: {fileID: 566703682}
+  - component: {fileID: 88000003}
   m_Layer: 0
   m_Name: Clown NPC 01 - Grey Cylinder
   m_TagString: Untagged
@@ -16867,6 +17457,7 @@ GameObject:
   - component: {fileID: 652240328}
   - component: {fileID: 652240327}
   - component: {fileID: 652240326}
+  - component: {fileID: 88000004}
   m_Layer: 0
   m_Name: Clown NPC 23 - Grey Cylinder
   m_TagString: Untagged
@@ -17545,6 +18136,7 @@ GameObject:
   - component: {fileID: 676869673}
   - component: {fileID: 676869675}
   - component: {fileID: 676869674}
+  - component: {fileID: 88000005}
   m_Layer: 0
   m_Name: Clown NPC 17 - Grey Cylinder
   m_TagString: Untagged
@@ -18788,6 +19380,7 @@ GameObject:
   - component: {fileID: 715558791}
   - component: {fileID: 715558790}
   - component: {fileID: 715558789}
+  - component: {fileID: 88000006}
   m_Layer: 0
   m_Name: Clown NPC 14 - Grey Cylinder
   m_TagString: Untagged
@@ -24164,6 +24757,7 @@ GameObject:
   - component: {fileID: 897337915}
   - component: {fileID: 897337914}
   - component: {fileID: 897337913}
+  - component: {fileID: 88000007}
   m_Layer: 0
   m_Name: Clown NPC 04 - Grey Cylinder
   m_TagString: Untagged
@@ -26505,6 +27099,7 @@ GameObject:
   - component: {fileID: 985873276}
   - component: {fileID: 985873275}
   - component: {fileID: 985873274}
+  - component: {fileID: 88000008}
   m_Layer: 0
   m_Name: Clown NPC 07 - Grey Cylinder
   m_TagString: Untagged
@@ -26644,6 +27239,7 @@ GameObject:
   - component: {fileID: 986714352}
   - component: {fileID: 986714351}
   - component: {fileID: 986714350}
+  - component: {fileID: 88000009}
   m_Layer: 0
   m_Name: Clown NPC 06 - Grey Cylinder
   m_TagString: Untagged
@@ -27451,6 +28047,7 @@ GameObject:
   - component: {fileID: 1043453922}
   - component: {fileID: 1043453921}
   - component: {fileID: 1043453920}
+  - component: {fileID: 88000010}
   m_Layer: 0
   m_Name: Clown NPC 20 - Grey Cylinder
   m_TagString: Untagged
@@ -33133,6 +33730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265780804}
+  - component: {fileID: 89000002}
   m_Layer: 0
   m_Name: Taxi - Static Placeholder
   m_TagString: Untagged
@@ -34190,6 +34788,7 @@ GameObject:
   - component: {fileID: 1300138373}
   - component: {fileID: 1300138372}
   - component: {fileID: 1300138371}
+  - component: {fileID: 88000011}
   m_Layer: 0
   m_Name: Clown NPC 13 - Grey Cylinder
   m_TagString: Untagged
@@ -34451,6 +35050,7 @@ GameObject:
   - component: {fileID: 1315796583}
   - component: {fileID: 1315796582}
   - component: {fileID: 1315796581}
+  - component: {fileID: 88000012}
   m_Layer: 0
   m_Name: Clown NPC 21 - Grey Cylinder
   m_TagString: Untagged
@@ -37807,6 +38407,7 @@ GameObject:
   - component: {fileID: 1469289441}
   - component: {fileID: 1469289440}
   - component: {fileID: 1469289439}
+  - component: {fileID: 88000013}
   m_Layer: 0
   m_Name: Clown NPC 09 - Grey Cylinder
   m_TagString: Untagged
@@ -38955,6 +39556,7 @@ GameObject:
   - component: {fileID: 1531300770}
   - component: {fileID: 1531300769}
   - component: {fileID: 1531300768}
+  - component: {fileID: 88000014}
   m_Layer: 0
   m_Name: Clown NPC 18 - Grey Cylinder
   m_TagString: Untagged
@@ -40999,6 +41601,7 @@ GameObject:
   - component: {fileID: 1610341893}
   - component: {fileID: 1610341892}
   - component: {fileID: 1610341891}
+  - component: {fileID: 88000015}
   m_Layer: 0
   m_Name: Clown NPC 08 - Grey Cylinder
   m_TagString: Untagged
@@ -42176,6 +42779,7 @@ GameObject:
   - component: {fileID: 1675105721}
   - component: {fileID: 1675105720}
   - component: {fileID: 1675105719}
+  - component: {fileID: 88000016}
   m_Layer: 0
   m_Name: Clown NPC 15 - Grey Cylinder
   m_TagString: Untagged
@@ -43943,6 +44547,7 @@ GameObject:
   - component: {fileID: 1744237755}
   - component: {fileID: 1744237754}
   - component: {fileID: 1744237753}
+  - component: {fileID: 88000017}
   m_Layer: 0
   m_Name: Clown NPC 10 - Grey Cylinder
   m_TagString: Untagged
@@ -44172,6 +44777,7 @@ GameObject:
   - component: {fileID: 1756097804}
   - component: {fileID: 1756097803}
   - component: {fileID: 1756097802}
+  - component: {fileID: 88000018}
   m_Layer: 0
   m_Name: Clown NPC 02 - Grey Cylinder
   m_TagString: Untagged
@@ -45485,6 +46091,7 @@ GameObject:
   - component: {fileID: 1839100703}
   - component: {fileID: 1839100702}
   - component: {fileID: 1839100701}
+  - component: {fileID: 88000019}
   m_Layer: 0
   m_Name: Clown NPC 11 - Grey Cylinder
   m_TagString: Untagged
@@ -47887,6 +48494,7 @@ GameObject:
   - component: {fileID: 1913481300}
   - component: {fileID: 1913481299}
   - component: {fileID: 1913481298}
+  - component: {fileID: 88000020}
   m_Layer: 0
   m_Name: Clown NPC 12 - Grey Cylinder
   m_TagString: Untagged
@@ -48026,6 +48634,7 @@ GameObject:
   - component: {fileID: 1916447645}
   - component: {fileID: 1916447644}
   - component: {fileID: 1916447643}
+  - component: {fileID: 88000021}
   m_Layer: 0
   m_Name: Clown NPC 03 - Grey Cylinder
   m_TagString: Untagged
@@ -48359,6 +48968,7 @@ GameObject:
   - component: {fileID: 1921364242}
   - component: {fileID: 1921364241}
   - component: {fileID: 1921364240}
+  - component: {fileID: 88000022}
   m_Layer: 0
   m_Name: Clown NPC 16 - Grey Cylinder
   m_TagString: Untagged
@@ -51094,6 +51704,7 @@ GameObject:
   - component: {fileID: 2077023294}
   - component: {fileID: 2077023293}
   - component: {fileID: 2077023292}
+  - component: {fileID: 88000023}
   m_Layer: 0
   m_Name: Clown NPC 05 - Grey Cylinder
   m_TagString: Untagged
@@ -51970,6 +52581,7 @@ GameObject:
   - component: {fileID: 2114130216}
   - component: {fileID: 2114130215}
   - component: {fileID: 2114130214}
+  - component: {fileID: 88000024}
   m_Layer: 0
   m_Name: Clown NPC 24 - Grey Cylinder
   m_TagString: Untagged
@@ -52849,3 +53461,4 @@ SceneRoots:
   - {fileID: 1177143403}
   - {fileID: 691972904}
   - {fileID: 852364389}
+  - {fileID: 89000004}

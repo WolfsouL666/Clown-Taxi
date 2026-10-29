@@ -18,6 +18,7 @@ namespace ClownTaxi.Runtime
         private BlockoutMarker pickup;
         private GameObject markerObject;
         private bool passengerOnBoard;
+        private bool configured;
         private Transform currentDestination;
         private GameObject destinationObject;
         private Material markerMaterial;
@@ -31,7 +32,11 @@ namespace ClownTaxi.Runtime
 
         public void Configure()
         {
+            if (configured)
+                return;
+            configured = true;
             Instance = this;
+            pickup = null;
             dropOffs.Clear();
             BlockoutMarker[] markers = FindObjectsByType<BlockoutMarker>(FindObjectsSortMode.None);
             foreach (BlockoutMarker marker in markers)
@@ -47,6 +52,7 @@ namespace ClownTaxi.Runtime
         private void Awake()
         {
             Instance = this;
+            Configure();
         }
 
         public void TryPickupAtTaxi(Vector3 taxiPosition)
