@@ -20,6 +20,7 @@ namespace ClownTaxi.Runtime
         private bool collected;
         private bool wantsPickup;
         private Collider ownCollider;
+        private Animator anim; //Eilaf added
         private Vector3 pickupPoint;
         private GameObject pickupArea;
         private Material pickupMaterial;
@@ -53,6 +54,7 @@ namespace ClownTaxi.Runtime
             if (configured)
                 return;
             ownCollider = GetComponent<Collider>();
+            anim = GetComponent<Animator>(); //Eilaf
             originalWorldScale = transform.lossyScale;
             CacheRoads();
             pickupPoint = FindStreetPickupPoint();
@@ -79,6 +81,9 @@ namespace ClownTaxi.Runtime
         {
             collected = true;
             wantsPickup = false;
+            anim.SetBool("Collected", true); //Eilaf
+            anim.SetBool("Cab", false); //Eilaf
+
             if (pickupArea != null)
                 pickupArea.SetActive(false);
             if (ownCollider != null)
@@ -92,6 +97,10 @@ namespace ClownTaxi.Runtime
         {
             collected = false;
             wantsPickup = false;
+            anim.SetTrigger("Idle"); //Eilaf
+            anim.SetBool("Collected", false); //Eilaf
+            anim.SetBool("Cab", false); //Eilaf
+
             transform.SetParent(null, false);
             transform.localScale = originalWorldScale;
             transform.rotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
@@ -151,6 +160,8 @@ namespace ClownTaxi.Runtime
                 {
                     wantsPickup = false;
                     pickupArea.SetActive(false);
+                    anim.SetBool("Cab", false); //Eilaf
+
                     nextRequestTime = now + Random.Range(requestDelayMin, requestDelayMax);
                 }
                 return;
@@ -166,6 +177,7 @@ namespace ClownTaxi.Runtime
                         return;
                     pickupArea.transform.position = pickupPoint;
                     wantsPickup = true;
+                    anim.SetBool("Cab", true); //Eilaf
                     requestEndTime = now + requestDuration;
                     pickupArea.SetActive(true);
                     return;
