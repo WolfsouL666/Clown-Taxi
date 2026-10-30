@@ -20,13 +20,15 @@ namespace ClownTaxi.Runtime
         [SerializeField] private Transform driverSeat;
         [SerializeField] private Transform cameraSeat;
         [SerializeField] private Transform exitPoint;
+        [SerializeField] private Transform passengerSeat;
 
+        [SerializeField] public GameObject CarUI;
 
         private FirstPersonPlayer occupant;
         private float speed;
         private float steeringInput;
         private bool cutsceneActive;
-        private Transform passengerSeat;
+        private bool configured;
         private PassengerNpc boardedPassenger;
         private Vector3 localVehicleCenter;
         private Vector3 localVehicleHalfExtents;
@@ -39,8 +41,16 @@ namespace ClownTaxi.Runtime
         public Transform PassengerSeat => passengerSeat;
         public bool CutsceneActive => cutsceneActive;
 
+        private void Awake()
+        {
+            Configure();
+        }
+
         public void Configure()
         {
+            if (configured)
+                return;
+            configured = true;
             Instance = this;
 
             if (driverSeat == null)
@@ -146,6 +156,7 @@ namespace ClownTaxi.Runtime
 
         private void Enter(FirstPersonPlayer player)
         {
+            CarUI.SetActive(true);
             occupant = player;
             player.SetDriving(true, driverSeat, this);
             Debug.Log($"[TaxiController] Player is now driving");
@@ -159,6 +170,7 @@ namespace ClownTaxi.Runtime
 
         private void Exit()
         {
+            CarUI.SetActive(false);
             Debug.Log($"[TaxiController] Player exiting taxi");
             FirstPersonPlayer player = occupant;
             occupant = null;

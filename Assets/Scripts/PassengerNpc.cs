@@ -81,9 +81,11 @@ namespace ClownTaxi.Runtime
         {
             collected = true;
             wantsPickup = false;
-            anim.SetBool("Collected", true); //Eilaf
-            anim.SetBool("Cab", false); //Eilaf
-
+            if (anim != null)
+            {
+                anim.SetBool("Collected", true); //Eilaf
+                anim.SetBool("Cab", false); //Eilaf
+            }
             if (pickupArea != null)
                 pickupArea.SetActive(false);
             if (ownCollider != null)
@@ -97,9 +99,12 @@ namespace ClownTaxi.Runtime
         {
             collected = false;
             wantsPickup = false;
-            anim.SetTrigger("Idle"); //Eilaf
-            anim.SetBool("Collected", false); //Eilaf
-            anim.SetBool("Cab", false); //Eilaf
+            if (anim != null)
+            {
+                anim.SetTrigger("Idle"); //Eilaf
+                anim.SetBool("Collected", false); //Eilaf
+                anim.SetBool("Cab", false); //Eilaf
+            }
 
             transform.SetParent(null, false);
             transform.localScale = originalWorldScale;
@@ -120,13 +125,15 @@ namespace ClownTaxi.Runtime
             nextRequestTime = Time.time + Random.Range(requestDelayMin, requestDelayMax);
         }
 
+        private void Start()
+        {
+            Configure();
+        }
+
         private void Update()
         {
             if (collected)
                 return;
-
-            if (!configured)
-                Configure();
 
             UpdateLife();
 
@@ -160,7 +167,8 @@ namespace ClownTaxi.Runtime
                 {
                     wantsPickup = false;
                     pickupArea.SetActive(false);
-                    anim.SetBool("Cab", false); //Eilaf
+                    if (anim != null)
+                        anim.SetBool("Cab", false); //Eilaf
 
                     nextRequestTime = now + Random.Range(requestDelayMin, requestDelayMax);
                 }
@@ -177,7 +185,8 @@ namespace ClownTaxi.Runtime
                         return;
                     pickupArea.transform.position = pickupPoint;
                     wantsPickup = true;
-                    anim.SetBool("Cab", true); //Eilaf
+                    if (anim != null)
+                        anim.SetBool("Cab", true); //Eilaf
                     requestEndTime = now + requestDuration;
                     pickupArea.SetActive(true);
                     return;

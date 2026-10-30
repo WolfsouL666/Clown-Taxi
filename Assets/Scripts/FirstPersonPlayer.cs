@@ -17,7 +17,7 @@ namespace ClownTaxi.Runtime
 
         [Header("==== REFERENCES ====")]
         [SerializeField] private Camera viewCamera;
-        [SerializeField] public GameObject UI;
+        [SerializeField] private GameObject ui;
 
         private CharacterController controller;
         private Renderer[] bodyRenderers;
@@ -25,15 +25,29 @@ namespace ClownTaxi.Runtime
         private float pitch;
         private bool driving;
         private bool pickupCutscene;
+        private bool configured;
         private System.Action pickupCutsceneFinished;
         private string pickupMessage;
 
         public Camera ViewCamera => viewCamera;
+        public GameObject UI => ui;
         public bool IsDriving => driving;
+
+        private void Awake()
+        {
+            if (configured)
+                return;
+            Configure(viewCamera != null ? viewCamera : Camera.main);
+        }
 
         public void Configure(Camera camera)
         {
-            viewCamera = camera;
+            if (configured)
+                return;
+            configured = true;
+            viewCamera = camera != null ? camera : Camera.main;
+            if (viewCamera == null)
+                return;
             controller = GetComponent<CharacterController>();
             if (controller == null)
                 controller = gameObject.AddComponent<CharacterController>();

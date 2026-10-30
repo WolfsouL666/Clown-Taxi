@@ -294,12 +294,12 @@ TextureImporter:
       name: D67DB980-5C1B-4B38-BA0D-AA11E94FCF55_8
       rect:
         serializedVersion: 2
-        x: 2936
-        y: 1229
+        x: 2935
+        y: 1230
         width: 444
         height: 433
       alignment: 9
-      pivot: {x: 0.39998153, y: 0.48744678}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
