@@ -22,6 +22,8 @@ namespace ClownTaxi.Runtime
         [SerializeField] private Transform exitPoint;
         [SerializeField] private Transform passengerSeat;
 
+        [SerializeField] public GameObject CarUI;
+
         private FirstPersonPlayer occupant;
         private float speed;
         private float steeringInput;
@@ -154,6 +156,7 @@ namespace ClownTaxi.Runtime
 
         private void Enter(FirstPersonPlayer player)
         {
+            CarUI.SetActive(true);
             occupant = player;
             player.SetDriving(true, driverSeat, this);
             Debug.Log($"[TaxiController] Player is now driving");
@@ -167,6 +170,7 @@ namespace ClownTaxi.Runtime
 
         private void Exit()
         {
+            CarUI.SetActive(false);
             Debug.Log($"[TaxiController] Player exiting taxi");
             FirstPersonPlayer player = occupant;
             occupant = null;
