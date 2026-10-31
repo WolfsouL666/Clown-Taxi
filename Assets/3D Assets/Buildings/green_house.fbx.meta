@@ -3,7 +3,27 @@ guid: fda16cb3b44c0a04c8505b9f74e76ed6
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: ec7cb5989d1c10e42adc628c49bf1faa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green_house_dark
+    second: {fileID: 2100000, guid: b886f73c0161e8945a314f0dfc59bb4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green_house_light
+    second: {fileID: 2100000, guid: 26b4ad004f78c3f40a54496522fff955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_
+    second: {fileID: 2100000, guid: 507792cdc2d80d846947764eba0f73fb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

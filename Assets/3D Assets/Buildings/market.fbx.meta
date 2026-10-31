@@ -3,7 +3,27 @@ guid: 9bacb5b653b51f84fb4cea2565c3df5c
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 6f64df909e4320a4495b6e10e6881c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sport_car_dark
+    second: {fileID: 2100000, guid: 6f64df909e4320a4495b6e10e6881c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sport_car_light
+    second: {fileID: 2100000, guid: 6f64df909e4320a4495b6e10e6881c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_
+    second: {fileID: 2100000, guid: 507792cdc2d80d846947764eba0f73fb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

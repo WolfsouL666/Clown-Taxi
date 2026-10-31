@@ -3,7 +3,27 @@ guid: ac7d3744923a8ef4790914e7422a3375
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 663de7e1918a63e42bfa42e76f1087d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue_house_dark
+    second: {fileID: 2100000, guid: 6f64df909e4320a4495b6e10e6881c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue_house_light
+    second: {fileID: 2100000, guid: db409bc547cf6a54889d0dea93917c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_
+    second: {fileID: 2100000, guid: 507792cdc2d80d846947764eba0f73fb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

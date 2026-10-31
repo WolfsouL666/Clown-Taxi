@@ -3,7 +3,17 @@ guid: 28b201805080e1b45961b50bae13f2b9
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Big Bin
+    second: {fileID: 2100000, guid: ec7cb5989d1c10e42adc628c49bf1faa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Big Bin Lid
+    second: {fileID: 2100000, guid: b886f73c0161e8945a314f0dfc59bb4e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

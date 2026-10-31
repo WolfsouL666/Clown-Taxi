@@ -3,7 +3,27 @@ guid: 66f899bb0618bda46bc21499d11d779f
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bakery_dark
+    second: {fileID: 2100000, guid: 760db53615c88e44e9efcc94dc68aa0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bakery_light
+    second: {fileID: 2100000, guid: 6f64df909e4320a4495b6e10e6881c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: d2be9c42450f961478f679836f2f5619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_
+    second: {fileID: 2100000, guid: 507792cdc2d80d846947764eba0f73fb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

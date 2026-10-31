@@ -52,7 +52,7 @@ namespace ClownTaxi.Runtime
             if (controller == null)
                 controller = gameObject.AddComponent<CharacterController>();
 
-            controller.height = 1.8f;
+            controller.height = 3.0f;
             controller.radius = 0.35f;
             controller.center = Vector3.up * 0.9f;
             controller.stepOffset = 0.35f;
