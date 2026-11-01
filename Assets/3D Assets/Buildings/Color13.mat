@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -105,7 +109,7 @@ Material:
     - _FogStrength: 100
     - _Fog_Distance: 250
     - _Fog_Strength: 1.5
-    - _Fog_Weakness: 1.43
+    - _Fog_Weakness: 1.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -121,7 +125,7 @@ Material:
     - _ScreenSpaceReflections: 1
     - _ScreenSpaceReflectionsContributeTransparent: 1
     - _Shades: 0.49
-    - _Shine: 1
+    - _Shine: 0.868
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 0
@@ -138,9 +142,12 @@ Material:
     - _BaseColor: {r: 0.8415094, g: 0.36997208, b: 0, a: 1}
     - _Color: {r: 0.8415094, g: 0.36997205, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fog: {r: 0.50377357, g: 1, b: 0.9607784, a: 1}
-    - _RimLight: {r: 0.7207546, g: 0.3631506, b: 0.30870056, a: 1}
+    - _Fog: {r: 0, g: 0, b: 0, a: 1}
+    - _LightColor: {r: 0.6132076, g: 0.4955252, b: 0.1475169, a: 1}
+    - _MidToneColor: {r: 0.20220721, g: 0.6037736, b: 0.5377885, a: 1}
+    - _RimLight: {r: 0.1071111, g: 0.7830189, b: 0.53277564, a: 1}
     - _Saturation: {r: 0.5773585, g: 0.5773585, b: 0.5773585, a: 1}
+    - _ShadeColor: {r: 0.22957455, g: 0.35462344, b: 0.6320754, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tint: {r: 0.84313726, g: 0.36862746, b: 0, a: 1}
   m_BuildTextureStacks: []

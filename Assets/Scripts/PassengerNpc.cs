@@ -46,6 +46,7 @@ namespace ClownTaxi.Runtime
 
         private void Awake()
         {
+            anim = GetComponent<Animator>(); //Eilaf
             originalWorldScale = transform.lossyScale;
         }
 
@@ -54,7 +55,6 @@ namespace ClownTaxi.Runtime
             if (configured)
                 return;
             ownCollider = GetComponent<Collider>();
-            anim = GetComponent<Animator>(); //Eilaf
             originalWorldScale = transform.lossyScale;
             CacheRoads();
             pickupPoint = FindStreetPickupPoint();

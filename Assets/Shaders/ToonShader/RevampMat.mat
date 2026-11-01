@@ -30,8 +30,7 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -157,8 +156,11 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fog: {r: 0.7377358, g: 0.8978192, b: 1, a: 1}
+    - _LightColor: {r: 0.7085001, g: 0.7264151, b: 0.31181026, a: 1}
+    - _MidToneColor: {r: 0.745283, g: 0.5481815, b: 0.23553754, a: 1}
     - _RimLight: {r: 1, g: 0.8900727, b: 0, a: 1}
     - _Saturation: {r: 0.5698112, g: 0, b: 0, a: 1}
+    - _ShadeColor: {r: 0, g: 0.8480972, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tint: {r: 0.94408077, g: 1, b: 0.80566037, a: 1}
   m_BuildTextureStacks: []

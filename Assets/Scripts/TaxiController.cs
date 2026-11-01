@@ -22,7 +22,11 @@ namespace ClownTaxi.Runtime
         [SerializeField] private Transform exitPoint;
         [SerializeField] private Transform passengerSeat;
 
+        [Header("==== ANIM OBJECTS ====")]  //Eilaf added
+        [SerializeField] public GameObject RearWindow;
         [SerializeField] public GameObject CarUI;
+
+        private Animator rearWindowAnim; //Eilaf added
 
         private FirstPersonPlayer occupant;
         private float speed;
@@ -43,6 +47,7 @@ namespace ClownTaxi.Runtime
 
         private void Awake()
         {
+            rearWindowAnim = RearWindow.GetComponent<Animator>();
             Configure();
         }
 
@@ -119,6 +124,11 @@ namespace ClownTaxi.Runtime
             MoveWithCollision(speed * Time.deltaTime);
 
             DeliveryManager.Instance?.TryCompleteAtTaxi(transform.position);
+
+            if (Keyboard.current.qKey.isPressed) //Eilaf
+            {
+                rearWindowAnim.SetTrigger("Close_open");
+            }
         }
 
         public void TryEnter(FirstPersonPlayer player)
