@@ -114,6 +114,7 @@ Material:
     - _Metallic: 0
     - _Min: 0.3
     - _OcclusionStrength: 1
+    - _Outline_Size: 0
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -141,7 +142,7 @@ Material:
     - _RimLight: {r: 0, g: 0, b: 0, a: 1}
     - _ShadeColor: {r: 0.25943398, g: 0.67033696, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tint: {r: 0.40210828, g: 0.31617126, b: 0.46226418, a: 1}
+    - _Tint: {r: 0.6969562, g: 0.7735849, b: 0.7528031, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6203200562621841267

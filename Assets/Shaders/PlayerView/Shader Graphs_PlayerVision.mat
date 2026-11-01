@@ -39,7 +39,7 @@ Material:
     m_Floats:
     - _ColorResolution: 8
     - _Constrast: 1
-    - _DitherSpread: 0.1
+    - _DitherSpread: 0.03
     - _Saturation: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

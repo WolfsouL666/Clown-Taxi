@@ -107,9 +107,9 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FogStrength: 100
-    - _Fog_Distance: 250
+    - _Fog_Distance: 57
     - _Fog_Strength: 1.5
-    - _Fog_Weakness: 1.5
+    - _Fog_Weakness: 1.53
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -117,6 +117,7 @@ Material:
     - _Metallic: 0
     - _Min: 0.3
     - _OcclusionStrength: 1
+    - _Outline_Size: 0
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -142,10 +143,10 @@ Material:
     - _BaseColor: {r: 1, g: 0.79864967, b: 0.0056602955, a: 1}
     - _Color: {r: 1, g: 0.79864967, b: 0.0056602955, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fog: {r: 0, g: 0, b: 0, a: 1}
+    - _Fog: {r: 0.6273585, g: 0.8142635, b: 1, a: 1}
     - _LightColor: {r: 0.6132076, g: 0.4955252, b: 0.1475169, a: 1}
     - _MidToneColor: {r: 0.20220721, g: 0.6037736, b: 0.5377885, a: 1}
-    - _RimLight: {r: 0.1071111, g: 0.7830189, b: 0.53277564, a: 1}
+    - _RimLight: {r: 0.7783019, g: 1, b: 0.9179845, a: 1}
     - _Saturation: {r: 0.5773585, g: 0.5773585, b: 0.5773585, a: 1}
     - _ShadeColor: {r: 0.22957455, g: 0.35462344, b: 0.6320754, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
